@@ -2,7 +2,8 @@
 
 void main()
 {
-	int a=1;
+	int a=0;
+	//long long int a=1;
 	while(1==1)
 	{
 	cout<<"Size spyral'ky: ";

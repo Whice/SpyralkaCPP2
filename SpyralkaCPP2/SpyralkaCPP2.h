@@ -6,11 +6,12 @@ void printq(int a)
 {
 	cout<<a+a;
 }
-void printspyralka(long int StoronaKvadrata)
+void printspyralka(int StoronaKvadrata)
 {
-	char **massive= new char*[StoronaKvadrata];
+	char massive[999][999];
+	/*char **massive= new char*[StoronaKvadrata];
 	for (int count = 0; count < StoronaKvadrata; count++)
-        massive[count] = new char [StoronaKvadrata];
+        massive[count] = new char [StoronaKvadrata];*/
 	for(int i=0;i<StoronaKvadrata;i++)
 		for(int j=0;j<StoronaKvadrata;j++)
 		{
@@ -98,7 +99,7 @@ void printspyralka(long int StoronaKvadrata)
 		}
 		cout<<"\n";
 	}
-	for (int count = 0; count < StoronaKvadrata; count++)
-        delete [] massive[count];
+	/*for (int count = 0; count < StoronaKvadrata; count++)
+        delete [] massive[count];*/
 
 }
