@@ -3,6 +3,16 @@
 void main()
 {
 	int a=1;
-	printq(a);
+	while(1==1)
+	{
+	cout<<"Size spyral'ky: ";
 	cin>>a;
+	//printq(a);
+	printspyralka(a);
+	cout<<"Continue?Y/N";
+	char b;
+	cin>>b;
+	if(b=='N')
+		break;
+	}
 }
